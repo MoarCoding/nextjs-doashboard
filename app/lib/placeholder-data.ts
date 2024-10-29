@@ -50,11 +50,6 @@ const customers = [
 
 const invoices = [
   {
-    customer_id: customers[0].id,
-    amount: 15795,
-    status: 'pending',
-  },
-  {
     customer_id: customers[1].id,
     amount: 20348,
     status: 'pending',
@@ -143,4 +138,4 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+export { customers, invoices, revenue, users };
